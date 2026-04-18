@@ -1,0 +1,80 @@
+# Environment variables - NEVER COMMIT
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+.next/
+out/
+.swc/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Dependencies
+package-lock.json
+poetry.lock
+
+# Secrets and private files
+.env.*.example
+secrets/
+private/
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# API Keys and credentials (extra safety)
+*_secret*
+*_private*
+*.key
+*.pem
